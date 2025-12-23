@@ -11,18 +11,6 @@ export function ProjectsSection() {
   const projects = [
     // Data Science Projects First
     {
-      title: "ArixStructure",
-      subtitle: "Document Intelligence",
-      description:
-        "AI-powered document analyzer for intelligent document processing. Extracts insights, generates summaries, and performs semantic search.",
-      tags: ["Python", "Streamlit", "Hugging Face", "NLP", "Transformers"],
-      icon: FileSearch,
-      github: "https://github.com/nameisahmedh/ArixStructure",
-      demo: "https://github.com/nameisahmedh/ArixStructure",
-      image: "/arix-structure.png",
-      category: "datascience",
-    },
-    {
       title: "Stroke Prediction",
       subtitle: "Healthcare ML Model",
       description:
@@ -32,6 +20,18 @@ export function ProjectsSection() {
       github: "https://github.com/nameisahmedh/strokeprediction",
       demo: "https://strokeprediction-1-1ykl.onrender.com/",
       image: "/stroke-prediction.png",
+      category: "datascience",
+    },
+    {
+      title: "ArixStructure",
+      subtitle: "Document Intelligence",
+      description:
+        "AI-powered document analyzer for intelligent document processing. Extracts insights, generates summaries, and performs semantic search.",
+      tags: ["Python", "Streamlit", "Hugging Face", "NLP", "Transformers"],
+      icon: FileSearch,
+      github: "https://github.com/nameisahmedh/ArixStructure",
+      demo: "https://github.com/nameisahmedh/ArixStructure",
+      image: "/arix-structure.png",
       category: "datascience",
     },
     // ML Projects Second
@@ -73,18 +73,6 @@ export function ProjectsSection() {
     },
     // AI Projects Last
     {
-      title: "Arix",
-      subtitle: "AI Content Generation Platform",
-      description:
-        "AI-powered content creation platform for generating articles, blog titles, images, and removing backgrounds. Features authentication and premium plans.",
-      tags: ["React 19", "Node.js", "MongoDB", "Google Gemini", "ClipDrop API", "Cloudinary", "Clerk", "Tailwind CSS"],
-      icon: Sparkles,
-      github: "https://github.com/nameisahmedh/Arix",
-      demo: "https://drive.google.com/file/d/18zuzGOTaA_SpfqxLCQhLZG68_M_miQPE/view",
-      image: "/arix-ai-platform.png",
-      category: "ai",
-    },
-    {
       title: "ArixAI Resume Analyzer",
       subtitle: "AI-Powered Resume Analysis",
       description:
@@ -94,6 +82,18 @@ export function ProjectsSection() {
       github: "https://github.com/nameisahmedh/arixai_resume_analyzer",
       demo: "https://drive.google.com/file/d/1rblOCgiCw3SwnzfRZ89LY6JDdy9f3f2e/view",
       image: "/arix-ai-resume-analyzer.png",
+      category: "ai",
+    },
+    {
+      title: "Arix",
+      subtitle: "AI Content Generation Platform",
+      description:
+        "AI-powered content creation platform for generating articles, blog titles, images, and removing backgrounds. Features authentication and premium plans.",
+      tags: ["React 19", "Node.js", "MongoDB", "Google Gemini", "ClipDrop API", "Cloudinary", "Clerk", "Tailwind CSS"],
+      icon: Sparkles,
+      github: "https://github.com/nameisahmedh/Arix",
+      demo: "https://drive.google.com/file/d/18zuzGOTaA_SpfqxLCQhLZG68_M_miQPE/view",
+      image: "/arix-ai-platform.png",
       category: "ai",
     },
   ]
