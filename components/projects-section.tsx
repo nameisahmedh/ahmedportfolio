@@ -30,11 +30,23 @@ export function ProjectsSection() {
       tags: ["Flask", "scikit-learn", "XGBoost", "CatBoost", "Pandas", "NumPy", "Bootstrap 5", "Render"],
       icon: HeartPulse,
       github: "https://github.com/nameisahmedh/strokeprediction",
-      demo: "https://github.com/nameisahmedh/strokeprediction",
+      demo: "https://strokeprediction-1-1ykl.onrender.com/",
       image: "/stroke-prediction.png",
       category: "datascience",
     },
     // ML Projects Second
+    {
+      title: "RAG-Based ML Teaching Assistant",
+      subtitle: "AI-Powered Video Learning Assistant",
+      description:
+        "AI-powered learning assistant that helps users find exact concepts inside long educational videos using Retrieval-Augmented Generation (RAG). Returns precise video number, start time, and end time for any queried topic.",
+      tags: ["Python", "RAG", "LLM", "Vector Search", "Embeddings", "Semantic Search", "NLP"],
+      icon: Bot,
+      github: "https://github.com/nameisahmedh/RAG-based-ML-teaching-Assistant",
+      demo: "https://drive.google.com/file/d/1GGfGsx3oN0IgES0eyMUPExevDRNFAcvr/view",
+      image: "/rag-ml-assistant.jpg",
+      category: "ml",
+    },
     {
       title: "California House Price Prediction",
       subtitle: "ML Regression Model",
@@ -57,18 +69,6 @@ export function ProjectsSection() {
       github: "https://github.com/nameisahmedh/iris-classification",
       demo: "https://iris-classification2.onrender.com/",
       image: "/iris-classification.png",
-      category: "ml",
-    },
-    {
-      title: "RAG-Based ML Teaching Assistant",
-      subtitle: "AI-Powered Video Learning Assistant",
-      description:
-        "AI-powered learning assistant that helps users find exact concepts inside long educational videos using Retrieval-Augmented Generation (RAG). Returns precise video number, start time, and end time for any queried topic.",
-      tags: ["Python", "RAG", "LLM", "Vector Search", "Embeddings", "Semantic Search", "NLP"],
-      icon: Bot,
-      github: "https://github.com/nameisahmedh/RAG-based-ML-teaching-Assistant",
-      demo: "https://drive.google.com/file/d/1GGfGsx3oN0IgES0eyMUPExevDRNFAcvr/view",
-      image: "/rag-ml-assistant.jpg",
       category: "ml",
     },
     // AI Projects Last
